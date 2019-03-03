@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Raleway');
+
+
+body {
+    display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+  padding-top:0px;
+background-image:url("http://inspiredm.com/wp-content/uploads/2013/12/50-seamless-grundge-patterns.jpg");
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+
+#MainHead {
+font-size: 70px;
+font-family: 'Baloo Thambi', cursive;
+color:rgb(47, 43, 48);
+}
+
+#Info {
+font-size: 30px;
+font-family: 'Raleway', sans-serif;
+justify-content:center;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+    
+}
+
+ul {
+font-family: 'Baloo Thambi', cursive;
+  font-size:40px;
+  color:rgb(0, 0, 0);
+  list-style-type:none;
+  display: flex;
+  justify-content: space-between;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw2_N-CcwAs1VL04rQY42rSEpBMdDPXLQmxA6A_hpLSX3Jm3Rc");
+  background-color:rgb(255, 255, 255);
+  width: 100%;
+  padding:0;
+  border:5px groove rgb(15, 189, 252);
+  border-radius: 15px;
+}
+#Good {
+font-size: 90px;
+font-family: 'Raleway', sans-serif;
+justify-content:center;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+a:visited {
+    color:rgb(67, 43, 165); 
+
+
+}
+
+a:link {
+  color: rgb(49, 85, 183);
+   list-style-type:none;
+}
+/* mouse over link */
+a:hover {
+    color:rgb(0, 255, 246);
+}
+
+
+#Home {
+   font-size: 50px;
+font-family: 'Baloo Thambi', cursive;
+justify-content:center;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px; 
+}
+
+#mood-header {
+color:rgb(7, 6, 48);
+font-size: 70px;
+font-family: 'Raleway', sans-serif;
+justify-content:center;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+}
