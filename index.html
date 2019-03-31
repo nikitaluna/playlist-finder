@@ -15,6 +15,23 @@
 	<li> <a href= "angry.html">Angry </a> </li>
 </ul>
 <p id="MainHead"> Playlist Finder</p>
+<label id="Info"></label>
+<script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+
+    document.getElementById('Info').innerHTML =
+        '<b>' + greet + '</b> and welcome to Playlist Finder';
+</script> 
 <p id="Info"> Are you wondering what to listen to? I will guess your mood and recommend playlist from Spotify!</p>
 <iframe src="https://trinket.io/embed/python3/faf16d25a8?runOption=run&start=result" width="630" height="630" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
